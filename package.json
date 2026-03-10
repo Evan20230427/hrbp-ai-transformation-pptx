@@ -1,0 +1,16 @@
+{
+  "name": "pdf-xlsx-to-pptx",
+  "version": "1.0.0",
+  "description": "將 PDF 和 XLSX 檔案中的內容自動擷取、結構化，並生成專業 PowerPoint 簡報。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}
