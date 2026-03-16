@@ -9,6 +9,11 @@
 3. 告訴 AI：「請將 input 中的檔案生成簡報」
 4. 生成的簡報將輸出到 `output/` 目錄
 
+## 目前任務
+
+- 正處理：`AI 時代重新設計人力資源業務夥伴（HRBP）角色的最佳實務.pdf`
+- 目標版本：v21 (Marmoreal Integrity Edition)
+
 ## 已安裝技能
 
 | 技能 | 功能 |
@@ -20,6 +25,11 @@
 | **theme-factory** | 套用專業主題樣式 |
 | **doc-coauthoring** | 內容結構化與大綱撰寫 |
 | **slack-gif-creator** | 製作社群發布用的 GIF 動畫 |
+
+## 專案現況
+- **當前版本**：v21 (Marmoreal Integrity Edition)。
+- **任務目標**：處理 HRBP AI 轉型最佳實務 PDF。
+- **技術進展**：導入 PaddleOCR 以應對掃描件擷取。
 
 ## 支援平台
 

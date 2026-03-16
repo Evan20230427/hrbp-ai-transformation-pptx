@@ -149,7 +149,7 @@ slideLast.background = { color: THEME.primary };
 slideLast.addText("啟動您的 AI 轉型旅程", { x: 0, y: 2.3, w: "100%", h: 0.6, fontSize: 36, bold: true, color: THEME.white, align: "center", fontFace: FONT_TCH });
 
 // Output
-const outDir = path.join(__dirname, "output");
+const outDir = path.join("C:\\Users\\TW-Evan.Chen\\.gemini\\antigravity\\scratch\\Skills_Workspace", "Output");
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 const outPath = path.join(outDir, "HRBP_AI_Transformation_Illustrated_v4.pptx");
 

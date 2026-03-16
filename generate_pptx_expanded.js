@@ -164,7 +164,7 @@ slide10.addText("Q&A 與 結語", { x: 0.5, y: 2, w: 9, h: 1, fontSize: 36, bold
 slide10.addText("準備好定義您的帶領地位了嗎？成果已備妥。", { x: 0.5, y: 3, w: 9, h: 0.5, fontSize: 18, color: THEME.subtle, fontFace: "Microsoft JhengHei", align: "center" });
 
 // Save
-const outputDir = path.join(__dirname, "output");
+const outputDir = path.join("C:\\Users\\TW-Evan.Chen\\.gemini\\antigravity\\scratch\\Skills_Workspace", "Output");
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 const finalPath = path.join(outputDir, "HRBP_AI_Transformation_Expanded.pptx");
 

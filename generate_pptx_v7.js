@@ -242,7 +242,7 @@ slideLast.addText("啟動您的數據領航之旅", { x: 0, y: 2.3, w: "100%", h
 slideLast.addText("Gartner HRBP AI Transformation Deliverable v7", { x: 0, y: 3.1, w: "100%", h: 0.4, fontSize: 14, color: THEME.secondary, align: "center", fontFace: FONT_BODY });
 
 // Final Save Execution
-const outDir = path.join(__dirname, "output");
+const outDir = path.join("C:\\Users\\TW-Evan.Chen\\.gemini\\antigravity\\scratch\\Skills_Workspace", "Output");
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 const finalPath = path.join(outDir, "HRBP_AI_Transformation_Full_v7.pptx");
 

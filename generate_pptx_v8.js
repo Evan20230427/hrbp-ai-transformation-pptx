@@ -234,7 +234,7 @@ slideLast.background = { color: THEME.primary };
 slideLast.addText("成功引領組織，重塑未來人才競爭力", { x: 0, y: 2.3, w: "100%", h: 0.6, bold: true, fontSize: 36, color: THEME.white, align: "center", fontFace: FONT_TCH });
 
 // Save
-const outDir = path.join(__dirname, "output");
+const outDir = path.join("C:\\Users\\TW-Evan.Chen\\.gemini\\antigravity\\scratch\\Skills_Workspace", "Output");
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 const finalPath = path.join(outDir, "HRBP_AI_Transformation_Full_v8.pptx");
 

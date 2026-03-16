@@ -161,7 +161,7 @@ data.children.forEach((l1, i) => {
 });
 
 // Save
-const outDir = path.join(__dirname, "output");
+const outDir = path.join("C:\\Users\\TW-Evan.Chen\\.gemini\\antigravity\\scratch\\Skills_Workspace", "Output");
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 const outPath = path.join(outDir, "HRBP_AI_Transformation_Refined_v6.pptx");
 

@@ -153,7 +153,7 @@ slideLast.background = { color: THEME.primary };
 slideLast.addText("感謝您的聆聽\n啟動您的 HR 轉型之旅", { x: 0, y: 2.3, w: "100%", h: 1, fontSize: 36, bold: true, color: THEME.white, align: "center", fontFace: FONT_TCH });
 
 // Save File
-const outDir = path.join(__dirname, "output");
+const outDir = path.join("C:\\Users\\TW-Evan.Chen\\.gemini\\antigravity\\scratch\\Skills_Workspace", "Output");
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 const finalPath = path.join(outDir, "HRBP_AI_Transformation_Flagship_v5.pptx");
 

@@ -99,7 +99,7 @@ branches.forEach(b => {
 });
 
 // Save
-const outputDir = path.join(__dirname, "output");
+const outputDir = path.join("C:\\Users\\TW-Evan.Chen\\.gemini\\antigravity\\scratch\\Skills_Workspace", "Output");
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 const finalPath = path.join(outputDir, "HRBP_AI_Transformation_Optimized.pptx");
 
