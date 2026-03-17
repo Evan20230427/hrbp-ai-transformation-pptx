@@ -1,48 +1,55 @@
-# HRBP AI 轉型最佳實務 - 終極對齊大綱 (v23)
+# HRBP AI 轉型最佳實務：羅馬美學 v23 終極簡報大綱
 
-## 核心規則
-- **頁數**：22 頁 (含封面、目錄、19 頁內容、1 頁結尾三階心智圖)。
-- **插圖唯一性**：22 張圖資在整份簡報中不重複、表情不重複。
-- **排版規範**：嚴格網格系統，禁止字塊、色塊、圖片、線條重疊。
-
----
-
-## 頁面配置與插圖索引
-1.  **封面**：重塑 HRBP 視覺終極版 (圖資：`cover_v21`)
-2.  **目錄**：主題導讀與三階架構預覽 (圖資：`mindmap_v22_infographic`)
-3.  **引言**：AI 時代的 HR 轉型奇點 (圖資：`v23_statue_wow`)
-4.  **數據**：51% 策略參與斷層分析 (圖資：`data_insight_v21`)
-5.  **情境**：行政事務的泥淖 (圖資：`v22_statue_bored`)
-6.  **覺醒**：擺脫傳統保姆角色 (圖資：`v22_statue_shock`)
-7.  **STL 1**：生存者 - 數位時代的情緒接口 (圖資：`v22_statue_laugh`)
-8.  **STL 2**：產品經理 - 組織效能的架構師 (圖資：`pm_v21`)
-9.  **STL 3**：使命守護者 - 倫理與文化的守門人 (圖資：`v21_ethics_v13`)
-10. **深度**：STL 三位一體的動態平衡 (圖資：`ethical_ai_balance_v10`)
-11. **任務 1**：主導人力資源重新設計 (圖資：`v22_statue_shock_alt`) <- 使用 `v23_statue_fear`
-12. **重新縮放**：AI 年代的人才配置實務 (圖資：`workforce_redesign_v13`)
-13. **任務 2**：Reskilling 技能地圖再造 (圖資：`v23_statue_proud`)
-14. **成長**：建立組織持續學習敏捷性 (圖資：`visionary_ladder_v9`)
-15. **任務 3**：AI 倫理治理憲法 (圖資：`v21_ethics_governance`)
-16. **監督**：確保算法公正與透明 (圖資：`professional_human_ai_v10`)
-17. **效率**：人機共生流程優化 (圖資：`v22_statue_think`)
-18. **策略**：確立 HRBP 的策略主導權 (圖資：`v23_statue_stoic`)
-19. **路徑**：數位羅馬大道 2026 (圖資：`roadmap_roman_v21`)
-20. **階段**：啟動、轉型、引領的三階路徑 (圖資：`transformation_journey_v10`)
-21. **指標**：量化 AI 轉型的商業價值 KPIs (圖資：`v22_statue_angry` - 代表對傳統權威的挑戰)
-22. **心智圖**：全量主題三階展開與頁碼對齊 (圖資：`stl_role_v21` 為側邊背景)
+## 專案規格
+- **目標版本**：v23 (Roman Aesthetics Ultimate Edition)
+- **總頁數**：24 頁
+- **核心理念**：從交易性工作轉向 AI 轉型顧問
+- **視覺規範**：擬真人誇張表情羅馬雕像 (Unique)、零重疊排版系統
 
 ---
 
-## 三階心智圖結構 (L1-L3)
-- **時代變革**
-  - 背景：策略斷層 (P.4)、行政束縛 (P.5)
-  - 趨勢：轉型奇點 (P.3)、角色覺醒 (P.6)
-- **核心角色 (STL)**
-  - 定位：生存者 (P.7)、產品經理 (P.8)、守護者 (P.9)
-  - 深度：三位一體平衡 (P.10)
-- **執行任務**
-  - 人才：人力重新設計 (P.11-12)、技能再造 (P.13-14)
-  - 治理：倫理憲法 (P.15-16)、效率優化 (P.17)
-- **實務路徑**
-  - 執行：策略主導 (P.18)、三階路徑 (P.19-20)
-  - 驗收：量化指標 KPIs (P.21)
+## 簡報章節規劃
+
+### Section 1: 轉型背景與願景 (Introduction & Vision)
+1. **Title Page**: AI 時代下的 HRBP 角色重塑 - 羅馬美學 v23 終極版
+2. **Agenda**: 簡報大纲與學習路徑
+3. **The Inflection Point**: 人力資源價值的轉折點 - AI 如何重塑 HRBP
+4. **Current Status**: 數據揭示：僅 51% HRBP 參與策略討論的現狀
+5. **The Risk**: 消失的優勢：當 AI 取代傳統策略性工作時的風險
+6. **The Future Goal**: 未來願景：成為 AI 轉型顧問 (AI Transformation Consultant)
+7. **STL Introduction**: 策略人才領袖 (Strategic Talent Leader, STL) 的定義與職責
+
+### Section 2: 三階段任務轉移策略 (The 3-Phase Strategy)
+8. **Transformation Framework**: 三階段任務轉變藍圖概要
+9. **Phase 1: Strip Out Legacy**: 剔除舊有作品 - 釋放行政壓力
+10. **Phase 1 Detail: Automation Roadmap**: 自動化路線圖：從 12 個月到永久保留
+11. **Phase 1 Detail: Defining Boundaries**: 定義界線：AI 執行 vs. HRBP 主導 (Stop-doing List)
+12. **Phase 1 Success**: 成功的衡量：回收工時與能力重新投入
+13. **Phase 2: Augment Strategic Work**: 強化核心策略責任 - AI 賦能的深度洞察
+14. **Phase 2 Detail: AI Competencies**: AI 時代下的 HRBP 核心能力更新
+15. **Phase 2 Detail: Evidence-Based Insights**: 證據基礎洞察：利用 AI 生成輸入促進對話
+16. **Phase 2 Success**: 成功的衡量：提升 BU 層級人才成果案例
+17. **Phase 3: Expand into New Work**: 擴展至新策略工作 - 主導企業 AI 變革
+18. **Phase 3 Detail: STL Pods**: STL 小組試點：精選具備判斷力與變革能力的成員
+19. **Phase 3 Detail: Transformation Decisions**: 嵌入決策核心：在決策前處理風險與機會
+20. **Phase 3 Success**: 成功的衡量：區域層級的轉型影響力
+
+### Section 3: 支援與結語 (Support & Appendices)
+21. **Gartner Support**: 利用 Gartner 資源強化 HR 專業知識
+22. **Tools & Resources**: DataHub 與 Ignition Guides：加速專案執行的利器
+23. **Call to Action**: 結語：為下一個 AI 時代做好準備
+24. **Appendix**: 3-Level 主題架構全展開圖 (帶頁碼對齊)
+
+---
+
+## 3-Level 主題架構 (用於第 24 頁)
+- L1: 轉型願景
+    - L2: 人力資源價值轉折
+    - L2: 未來角色：AI 轉型顧問
+- L1: 任務轉移策略
+    - L2: 剔除舊有行政工作 (Phase 1)
+    - L2: AI 賦能策略核心 (Phase 2)
+    - L2: 擴展至企業變革主導 (Phase 3)
+- L1: 成功的衡量與支援
+    - L2: 階段性 KPI 指標
+    - L2: Gartner 資源整合

@@ -12,7 +12,7 @@
 ## 目前任務
 
 - 正處理：`AI 時代重新設計人力資源業務夥伴（HRBP）角色的最佳實務.pdf`
-- 目標版本：v21 (Marmoreal Integrity Edition)
+- 目標版本：v23 (Roman Aesthetics Ultimate Edition)
 
 ## 已安裝技能
 
