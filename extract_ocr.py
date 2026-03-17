@@ -8,14 +8,18 @@ import io
 # 如果 Tesseract 路徑不在 PATH 中，請於此處指定
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
+import glob
+
 def extract_ocr_content():
-    pdf_path = os.path.join("input", "AI 時代重新設計人力資源業務夥伴（HRBP）角色的最佳實務.pdf")
+    # 動態搜尋 input 資料夾下的第一個 pdf 檔案
+    pdf_files = glob.glob(os.path.join("input", "*.pdf"))
+    if not pdf_files:
+        print("Error: No PDF files found in the 'input' folder.")
+        return
+    
+    pdf_path = pdf_files[0]
     output_path = "extracted_content.json"
     
-    if not os.path.exists(pdf_path):
-        print(f"Error: {pdf_path} not found.")
-        return
-
     print(f"Starting OCR extraction with Tesseract for: {pdf_path}")
     
     doc = fitz.open(pdf_path)

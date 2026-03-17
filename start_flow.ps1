@@ -1,11 +1,16 @@
 # pdf-xlsx-to-pptx 啟動腳本
 $ErrorActionPreference = "Continue"
 
+# 階段 0: 清理舊數據
+if (Test-Path extracted_content.json) { Remove-Item extracted_content.json }
+
 Write-Host "--- 階段 1: 執行 PDF 內容擷取 (OCR) ---" -ForegroundColor Cyan
 python extract_ocr.py
-if ($LASTEXITCODE -ne 0) { 
-    Write-Host "!! OCR 擷取失敗 !!" -ForegroundColor Red
-    exit 1 
+
+# 檢查是否成功產出 json 檔案
+if (-not (Test-Path extracted_content.json)) {
+    Write-Host "!! OCR 擷取失敗或未找到檔案 !!" -ForegroundColor Red
+    exit 1
 }
 
 Write-Host "--- 階段 2: 執行簡報渲染生成 (Node.js) ---" -ForegroundColor Cyan
