@@ -5,9 +5,10 @@
 ## 使用方式
 
 1. 將來源 PDF / XLSX 檔案放入 `input/` 目錄
-2. 在任一支援平台（Antigravity / Copilot CLI / OpenCode）中開啟此專案
-3. 告訴 AI：「請將 input 中的檔案生成簡報」
-4. 生成的簡報將輸出到 `output/` 目錄
+2. 開啟 PowerShell 並切換至此目錄
+3. 執行指令：`./start_flow.ps1` (一鍵完成 OCR 與生成)
+4. 或手動按序執行：`python extract_ocr.py` 接著 `node generate_pptx_v23_ultimate.js`
+5. 生成的簡報將輸出到 `output/` 目錄
 
 ## 目前任務
 

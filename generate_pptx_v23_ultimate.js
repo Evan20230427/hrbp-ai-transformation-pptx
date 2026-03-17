@@ -157,7 +157,15 @@ SLIDES_CONTENT.forEach((sData, idx) => {
     }
 });
 
-const outP = path.join("C:\\Users\\TW-Evan.Chen\\.gemini\\antigravity\\scratch\\pdf-xlsx-to-pptx\\output", "HRBP_AI_Transformation_v23_Ultimate.pptx");
+const outputDir = path.join(__dirname, "output");
+if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+}
+
+const outP = path.join(outputDir, "HRBP_AI_Transformation_v23_Ultimate.pptx");
 pres.writeFile({ fileName: outP }).then(fn => {
-    console.log(`Success: v23 PPTX Generated at ${fn}`);
-}).catch(err => console.error(err));
+    console.log(`[SUCCEESS] PPTX Generated at: ${fn}`);
+}).catch(err => {
+    console.error(`[ERROR] Failed to write file: ${err.message}`);
+    process.exit(1);
+});
